@@ -1,7 +1,5 @@
 package Ejercicios;
 
-import java.util.Iterator;
-
 public class PalabraLeida {
 	//atributo
 	private String contenidoPalabra;
@@ -12,7 +10,7 @@ public class PalabraLeida {
 	//to String
 	@Override
 	public String toString() {
-		return "PalabraLeida [contenidoPalabra=" + contenidoPalabra + "]";
+		return contenidoPalabra;
 	}
 	//metodos
 	public int contarNumeroLetras() {
